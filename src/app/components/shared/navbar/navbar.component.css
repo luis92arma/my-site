@@ -1,0 +1,96 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+i.material-icons.md-48.md-light {
+  margin-top: 3.9vh;
+}
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: block;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark[_ngcontent-c1] {
+  width: 100%;
+  height: -webkit-fill-available;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: flex;
+  align-items: baseline;
+}
+
+ul.navbar-nav.mr-auto {
+  display: list-item;
+  justify-content: center;
+  align-content: start;
+  border: ;
+  width: 100%;
+  padding: 0;
+}
+
+li.nav-item {
+  height: 16vh;
+}
+
+a.nav-link.btn.btn-outline-danger {
+  height: 100%;
+}
+
+.btn{
+  border: 0px;
+  border-bottom: 0.5px solid !important;
+  border-radius: 0px !important;
+}
+.btn-outline-danger{
+  border-color: rgba(255, 255, 255, 1);
+  border: 0px 0px 1px;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #de3926;
+  border-color: #de3926;
+}
+
+.btn-outline-danger:not([disabled]):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
+  color: #fff !important;
+  border-color: #ffffff !important;
+  box-shadow: none;
+}
+
+.btn-outline-danger:focus {
+  box-shadow: none;
+}
+
+/* Responsive */
