@@ -1,0 +1,55 @@
+.row{
+  height: 100vh;
+}
+
+.col-md-6{
+  padding: 0px !important;
+}
+
+.background-img{
+  background-image: url('https://static.pexels.com/photos/267507/pexels-photo-267507.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
+  position: fixed;
+  width: 45.8vw;
+  height: 100%;
+}
+
+.pos{
+  left: 50%;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.container {
+  padding: 0px 0px 0px 6px;
+}
+
+h3{
+  color: #949494;
+  text-align: left;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+  .col-md-6.background-img.w3-container.w3-center.w3-animate-top{
+    display: block;
+    position: inherit;
+    width: 100%;
+    height: 44%;
+  }
+
+  .col-md-6.pos.w3-container.w3-center.w3-animate-bottom{
+    left: 9%;
+    width: 90%;
+  }
+}

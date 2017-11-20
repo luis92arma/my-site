@@ -1,0 +1,75 @@
+.row{
+  height: 100vh;
+}
+
+.col-md-6{
+  padding: 0px !important;
+}
+
+.background-img{
+  background-image: url('/../assets/img/code.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
+  position: fixed;
+  width: 45.8vw;
+  height: 100%;
+}
+
+.pos{
+  left: 50%;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.container {
+  padding: 0px 0px 0px 9px;
+}
+
+.bar-skills{
+  padding: 15px;
+}
+
+.progress {
+  background: rgba(245, 245, 245, 1);
+  border: 0px solid rgba(245, 245, 245, 1);
+  border-radius: 4px; height: 40px;
+  margin: 10px 0px;
+  justify-content: space-between;
+ }
+.progress-bar-custom {
+  background: rgba(117, 117, 117, 1);
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+.progress-striped .progress-bar-custom {
+  background-color: rgba(117, 117, 117, 1);
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(184, 173, 173, 0.15),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(184, 173, 173, 0.15)),color-stop(0.75,rgba(184, 173, 173, 0.15)),color-stop(0.75,transparent),to(transparent)));
+  background-image: -webkit-linear-gradient(45deg,rgba(184, 173, 173, 0.15) 25%,transparent 25%,transparent 50%,rgba(184, 173, 173, 0.15) 50%,rgba(184, 173, 173, 0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(184, 173, 173, 0.15) 25%,transparent 25%,transparent 50%,rgba(184, 173, 173, 0.15) 50%,rgba(184, 173, 173, 0.15) 75%,transparent 75%,transparent);
+  background-size: 17px 17px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+  .col-md-6.background-img.w3-container.w3-center.w3-animate-bottom{
+    display: block;
+    position: inherit;
+    width: 100%;
+    height: 44%;
+  }
+
+  .col-md-6.pos.w3-container.w3-center.w3-animate-top{
+    left: 6%;
+    width: 90%;
+  }
+}

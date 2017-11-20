@@ -1,0 +1,167 @@
+.row{
+  height: 100vh;
+}
+
+.col-md-6{
+  padding: 0px;
+}
+
+.background-img{
+  background-image: url('/../assets/img/me.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
+}
+
+.text{
+  right: 0;
+  position: absolute;
+  top: 60px;
+  z-index: 3;
+  vertical-align: bottom;
+}
+
+.text .name{
+  background-color: #de3926;
+  border-color: #de3926;
+  color: white;
+  text-align: right;
+  text-align: -webkit-right;
+  padding: 40px 60px;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.text-left{
+  left: 0;
+  position: absolute;
+  top: 60px;
+  z-index: 3;
+  vertical-align: bottom;
+}
+
+.text-left .name-left{
+  background-color: #222222;
+  border-color: #222222;
+  color: white;
+  text-align: right;
+  text-align: -webkit-right;
+  padding: 40px 60px;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.text-up{
+  left: 0;
+  position: absolute;
+  top: 205px;
+  z-index: 3;
+  vertical-align: bottom;
+}
+
+.text-up .name-up{
+  background-color: white;
+  border-color: white;
+  color: black;
+  text-align: right;
+  text-align: -webkit-right;
+  padding: 30px 60px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.background-img-2{
+  background-image: url('/../assets/img/home.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.btn-group, .btn-group-vertical {
+  top: 74vh;
+}
+
+a.btn.btn-light {
+  border-radius: 0px;
+  padding: 19px;
+}
+
+a.btn.btn-light.facebook:hover{
+  color: 	#3b5998;
+}
+
+a.btn.btn-light.twitter:hover{
+  color: 	#00aced;
+}
+
+a.btn.btn-light.google:hover{
+  color: 	#dd4b39;
+}
+
+a.btn.btn-light.linkedin:hover{
+  color: #007bb6;
+}
+
+a.btn.btn-light.github:hover{
+  color: #0d2836;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+
+  .row{
+    position: relative;
+  }
+
+  .text{
+    right: 47.3%;
+    top: 62.4%;
+  }
+
+  .text .name{
+    font-size: 18px;
+  }
+
+  .text-left{
+    top: 0;
+    left: 9%;
+  }
+
+  .text-left .name-left{
+    font-size: 18px;
+  }
+
+  .text-up{
+    top: 30%;
+    left: 9%;
+  }
+
+  .text-up .name-up{
+    font-size: 10px;
+  }
+
+  .btn-group{
+    top: 44vh;
+    left: 114px;
+  }
+
+  .logo{
+    width: 10px;
+    height: 10px;
+    font-size: 18px;
+  }
+}
